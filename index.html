@@ -296,7 +296,54 @@
                 </div>
                 <div class="spacer" data-height="60"></div>
 
-                
+                <div class="col-md-8 justify-content-center d-flex">
+					<!-- Contact Form -->
+					<form id="contact-form" class="contact-form mt-6" method="post">
+						
+						<div class="messages"></div>
+						
+						<div class="row">
+							<div class="column col-md-6">
+								<!-- Name input -->
+								<div class="form-group">
+									<input type="text" class="form-control" name="InputName" id="InputName" placeholder="Nama" required="required" data-error="Nama wajib diisi.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+							
+							<div class="column col-md-6">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Email address" required="required" data-error="Email wajib diisi.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+
+							<div class="column col-md-12">
+								<!-- Email input -->
+								<div class="form-group">
+									<input type="text" class="form-control" id="InputSubject" name="InputSubject" placeholder="Subject" required="required" data-error="Subject wajib diisi.">
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+					
+							<div class="column col-md-12">
+								<!-- Message textarea -->
+								<div class="form-group">
+									<textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" placeholder="Pesan" required="required" data-error="Pesan wajib diisi."></textarea>
+									<div class="help-block with-errors"></div>
+								</div>
+							</div>
+						</div>
+
+                        <!-- Send Button -->
+                        <button type="submit" name="submit" id="submit" value="Submit" class="btn btn-default">Send</button>
+                        
+
+					</form>
+					<!-- Contact Form end -->
+				</div>
+
 
             </div>
         </section>
