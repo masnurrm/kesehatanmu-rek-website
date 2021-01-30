@@ -1195,7 +1195,7 @@ select.portfolio-filter-mobile {
   width: 90px;
 }
 .testimonial-item .subtitle {
-  color: #8B88B1;
+  color: #354143;
   font-size: 14px;
 }
 .testimonial-item p {
@@ -1262,14 +1262,14 @@ select.portfolio-filter-mobile {
 }
 .blog-item .meta {
   font-size: 14px;
-  color: #8B88B1;
+  color: #354143;
 }
 .blog-item .meta li:not(:last-child) {
   margin-right: 0.6rem;
 }
 .blog-item .meta li:after {
   content: "";
-  background: #8B88B1;
+  background: #354143;
   border-radius: 50%;
   display: inline-block;
   height: 3px;
@@ -1825,7 +1825,7 @@ body.dark footer.footer {
 }
 
 .timeline .content .time {
-  color: #8B88B1;
+  color: #354143;
   font-size: 14px;
 }
 
