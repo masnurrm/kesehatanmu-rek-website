@@ -769,7 +769,7 @@ section {
 }
 
 section.home {
-  background-image: url("https://raw.githubusercontent.com/masnurrm/Website-KesehatanmuRek/main/img/cloud.jpeg?token=APPSZOC3RWYO6KYZVURKUI3ADZPAK");
+  background-image: url("https://github.com/masnurrm/Website-KesehatanmuRek/blob/main/img/cloud.jpg?raw=true");
   padding: 0;
   height: 100vh;
   min-height: 100vh;
@@ -1276,7 +1276,35 @@ footer.footer.light {
 }
 
 .form-control::-webkit-input-placeholder {
- 
+  /* Edge */
+  color: #AEACCA;
+}
+
+.form-control:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #AEACCA;
+}
+
+.form-control::placeholder {
+  color: #AEACCA;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.input-group-addon {
+  padding: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  color: #555;
+  text-align: center;
+  background-color: transparent;
+  border: 0;
+  border-radius: 0;
+}
+
 /*Alert*/
 .alert {
   padding: 15px;
@@ -1951,4 +1979,3 @@ body {
     margin-top: 100px;
   }
 }
-
