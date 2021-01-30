@@ -813,7 +813,8 @@ section {
 }
 
 section.home {
-  background: #354143;
+  background-image: url("https://raw.githubusercontent.com/masnurrm/Website-KesehatanmuRek/main/img/cloud.jpeg?token=APPSZOC3RWYO6KYZVURKUI3ADZPAK");
+  /* background: #354143; */
   padding: 0;
   height: 100vh;
   min-height: 100vh;
